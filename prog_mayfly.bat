@@ -1,0 +1,2 @@
+rem prog_mayfly <nam.hex>
+c:\users\neilh77a\.platformio\packages\tool-avrdude\avrdude -v -p atmega1284p -C C:\Users\neilh77a\.platformio\packages\tool-avrdude\avrdude.conf -c arduino -b 57600 -D -P "%2" -U flash:w:%1:i
