@@ -1,7 +1,8 @@
 # ms_releases
 This contains ModularSensor releases that may be downloaded to the specified platform.
 
-mayfly0.25.0_200825_tt_tu_yyy.hex - Added build names, and rotating DBGYYMM.log . testing with some bug fixes.   see 2020 Aug https://github.com/neilh10/ModularSensors/wiki/2a-Release-Notes    
+mayfly0.25.0_200825_tt_tu_yyy.hex - Added build names, and rotating DBGYYMM.log . testing with some bug fixes.   https://github.com/neilh10/ModularSensors/releases/tag/v0.25.0.release1_200825
+see 2020 Aug  https://github.com/neilh10/ModularSensors/wiki/2a-Release-Notes    
 
 mayfly0.25.0_200812_tt_tu_yyy.hex - guarenteed data delivery.   
 
