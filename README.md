@@ -1,6 +1,8 @@
 # ms_releases
 This contains ModularSensor releases that may be downloaded to the specified platform.
 
+https://github.com/neilh10/ModularSensors/releases/tag/v0.25.0.release1_200906
+
 mayfly0.25.0_200825_tt_tu_yyy.hex      
 - Added build names, and rotating POST log file, DBGYYMM.log . Soak tested.   
 https://github.com/neilh10/ModularSensors/releases/tag/v0.25.0.release1_200825    
