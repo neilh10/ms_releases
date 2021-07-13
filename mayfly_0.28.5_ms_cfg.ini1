@@ -1,0 +1,42 @@
+[COMMON]
+;This section required. Max 80 active chars, not including after any ;
+LOGGER_ID =TUCA_SITE ;Auto Site Reference 
+LOGGING_INTERVAL_MINUTES=15
+LIION_TYPE = 2 ;0=Any 1=LiIon0.5A 2=1AH 3=LiSOCL2 4=3Leclanche
+BATTERY_mAhr =4400 ;to 65500
+TIME_ZONE=-8  ; -12 to +12
+GEOGRAPHICAL_ID="Crk at  Weir "
+
+[NETWORK]
+;apn only one depending on cell plan
+;apn=hologram
+;apn=nimblink.gw12.vzwentp
+; or if WiFi or 
+COLLECT_READINGS=4 ;8 Number of readings to collect before send 0to30
+SEND_OFFSET_MIN=2 ;2minutes to wait after collection complete 0-30
+POST_MAX_NUM=100
+
+[PROVIDER_MMW]
+;https://monitormywatershed.org/sites/..../
+CLOUD_ID=data.enviroDIY.com
+REGISTRATION_TOKEN= <>
+SAMPLING_FEATURE=   <>
+TIMER_POST_TOUT_MS=5000; Gateway Timeout (ms)
+TIMER_POST_PACE_MS=1000
+
+ITROLL_DEPTH_UUID=       <> ;Gage depth ft LT500 
+ITROLL_TEMP_UUID=        <> ;Temperature C LT500 
+
+Batt_UUID=              <> ;Solar EnviroDIY_Mayfly_Batt
+STC3100Volt_UUID=       <> ;LiIon All_ExternalVoltage_Battery (V)
+STC3100used1_mAhr_UUID= <> ;mAh All EM-mAhr 
+STC3100avlbl_mAhr_UUID= <> ;mAh All EM-mAhr
+SampleNumber_UUID=      <> ;Sequence number EnviroDIY_Mayfly_SampleNum
+DIGI_RSSI_UUID=         <> ;Received signal strength indication (Digi_Cellular_RSSI)
+
+[USER]
+; For configuring project specific
+ACTION=WRITE ; Last Operation
+
+
+

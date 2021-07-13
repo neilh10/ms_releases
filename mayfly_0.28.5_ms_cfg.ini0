@@ -1,0 +1,5 @@
+[COMMON]
+GEOGRAPHICAL_ID="InformationEEPROM default"
+
+[BOOT]
+EEPROM_WRITE=DEFAULT_APP_EEPROM ; Initialize app then write, dangerous
