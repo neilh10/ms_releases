@@ -1,5 +1,15 @@
 # ms_releases
 This contains ModularSensor releases that may be downloaded to the specified platform.
+to download to Mayfly :
+
+On Windows open a cmd window and step to where the file is
+ attach USB cable on host, plugin to USB on Mayflay, not what COM it is
+
+$prog_mayfly <file.hex> COMxx
+
+See https://github.com/neilh10/ModularSensors/releases
+
+eg https://github.com/neilh10/ModularSensors/releases/tag/v0.34.1-abe
 
 https://github.com/neilh10/ModularSensors/releases/tag/v0.25.0.release1_200906
 
